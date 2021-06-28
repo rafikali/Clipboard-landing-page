@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+:root {
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+
+}
+header {   
+    background: url(../images/bg-header-desktop.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+
+}
+p {
+    color: var(--Grayish-Blue);
+}
+.container {
+    text-align: center;
+    width: 40%;
+    padding-top: 96px;
+}
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-size: 34px;
+
+}
+.container p {
+    line-height: 1.6;
+    margin-bottom: 38px;
+}
+
+.btn-1 {
+    padding: 13px 22px;
+    margin-right: 10px;
+    border-radius: 31px;
+    background: var(--Strong-Cyan);
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px 5px 11px lightgrey;
+
+}
+.btn-2 {
+    padding: 13px 22px;
+    border-radius: 31px;
+    background: var(--Light-Blue);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 5px 11px lightgrey;
+
+}
+.snipet {
+    padding: 0px 357px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.snipet h1 , .snipet-3 h1 {
+    font-size: 29px;
+}
+.snipet p {
+    line-height: 1.6;
+}
+
+.snipet-1 {
+    display: flex;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.snipet-left {
+    width: 60%;
+   
+}
+.snipet-left img {
+    width: 100%;
+}
+.snipet-right {
+    width: 50%;
+}
+.snipet-info {
+    padding: 40px 201px 0 77px;
+
+}
+.snipet-info p {
+    margin-bottom: 44px
+}
+
+.snipet-2 h1 {
+ text-align: center;
+ font-size: 30px;
+
+}
+.snipet-2 p {
+    text-align: center;
+    padding: 0 380px;
+}
+#tools {
+    text-align: center;
+    margin-bottom: 82px;
+
+}
+
+.img-container {
+    text-align: center;
+    padding: 66px 0 0 17px;
+}
+
+.snipet-3 {
+    text-align: center;
+}
+
+.snipet-features {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+.icons {
+
+    height: 50px;
+}
+
+.productivity {
+    width: 25%;
+}
+.productivity p {
+    line-height: 1.6;
+}
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.clipboard {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.clipboard-info {
+    text-align: center;
+    width: 46%;
+
+}
+.clipboard-info p {
+    margin-bottom: 40px;
+    line-height: 1.6;
+
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 124px;
+    background: lightblue;
+    align-items: center;
+    background: hsl(0deg 2% 80% / 32%);
+
+}
+.footer-logo {
+    background: url("../images/logo.svg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 103px;
+    width: 20%;
+}
+
+.footer-connect {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 24px;
+}
+.footer-socialmedia {
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+.footer-socialmedia img {
+    margin-right: 20px;
+}
+.bottom {
+    height: 77px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
